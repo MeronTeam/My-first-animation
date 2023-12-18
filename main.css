@@ -1,0 +1,43 @@
+.box {
+    background-color: yellow;
+    position: relative;
+    border:yellow solid;
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    margin-left: 40%;
+    box-shadow: yellow 1px 10px 100px;
+    animation-name: sun-anim;
+    animation-duration: 7s;
+    animation-delay: 10ms;
+    animation-iteration-count: 7;
+}
+h1 {
+    text-align: center;
+    color: red;
+    text-decoration:overline;
+}
+
+@keyframes sun-anim {
+    0% {
+        /* rotate: 0%; */
+
+    }
+
+    100% {
+        /* rotate: 50%; */
+        box-shadow: black 1px 10px 100px;
+        background-color: gray;
+        border: gray solid;
+    }
+    50% {
+        background-color: yellow;
+        position: relative;
+        border:yellow solid;
+        border-radius: 50%;
+        width: 15rem;
+        height: 15rem;
+        margin-left: 40%;
+        box-shadow: yellow 1px 10px 100px;
+    }
+}
